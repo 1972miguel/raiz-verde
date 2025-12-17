@@ -10,12 +10,13 @@
 
 body {
   font-family: system-ui, -apple-system, sans-serif;
-  line-height: 1.7;
+  line-height: 1.8;          /* ← aumentamos un poco el interlineado */
   background: #121212;
   color: #e0e0e0;
-  padding: 2rem 1rem;
-  max-width: 800px;
+  padding: 3rem 1rem;        /* ← más padding para respirar */
+  max-width: 860px;          /* ← un poco más ancho para texto cómodo */
   margin: 0 auto;
+  font-size: 1.15rem;        /* ← ¡Aquí! Tamaño base más grande (antes era implícito ~16px, ahora ~18.4px) */
 }
 
 header {
@@ -26,15 +27,20 @@ header {
 }
 
 .logo {
-  width: 100px;
+  width: 130px;
   height: 100px;
   margin-bottom: 1rem;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.2rem;
   color: #95d5b2;
   margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2.2rem;         /* ← títulos de artículos y secciones */
+  margin-bottom: 0.8rem;
 }
 
 .tagline {
@@ -60,7 +66,7 @@ article h2 {
 
 article .meta {
   color: #74c69d;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -80,7 +86,7 @@ footer {
   margin-top: 4rem;
   padding-top: 2rem;
   border-top: 1px solid #2d6a4f;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #666;
 }
 
@@ -91,12 +97,15 @@ footer {
 }
 
 /* Responsive */
+
+/* Mejora extra para pantallas pequeñas */
 @media (min-width: 600px) {
   body {
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
+    font-size: 1.25rem;      /* ← aún más grande en desktop/tablet */
   }
   
   h1 {
-    font-size: 3rem;
+    font-size: 3.8rem;
   }
 }
