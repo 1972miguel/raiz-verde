@@ -1,54 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="description"
-    content="Raíz Verde es un espacio colaborativo dedicado a explorar la sostenibilidad en la tecnología digital y los proyectos forestales ambientales. Artículos semanales sobre green web design, reforestación y análisis crítico.">
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <title>Raíz Verde: el proyecto - Raíz Verde</title>
+    content="Un recorrido por las técnicas que permiten crear sitios web más eficientes, accesibles y respetuosos con el planeta.">
+  <meta name="author" content="MigLai">
+  <meta name="keywords" content="diseño web sostenible, principios green design, web eficiente, accesibilidad web">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://raiz-verde.netlify.app/articulos/raiz-verde-el-proyecto.html">
+  <meta property="og:title" content="Diseño web sostenible: principios y prácticas">
+  <meta property="og:description"
+    content="Técnicas para crear sitios web más eficientes, accesibles y respetuosos con el planeta.">
+  <meta property="og:image" content="https://raiz-verde.netlify.app/assets/img/logo.svg">
+  <meta property="article:published_time" content="2025-12-17">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://raiz-verde.netlify.app/articulos/raiz-verde-el-proyecto.html">
+  <meta name="twitter:title" content="Diseño web sostenible: principios y prácticas">
+  <meta name="twitter:description" content="Técnicas para crear sitios web más eficientes y sostenibles.">
+  <meta name="twitter:image" content="https://raiz-verde.netlify.app/assets/img/logo.svg">
+
+  <title>Diseño web sostenible: principios y prácticas - Raíz Verde</title>
   <link rel="canonical" href="https://raiz-verde.netlify.app/articulos/raiz-verde-el-proyecto.html">
   <!-- Critical CSS inline -->
   <style>
-  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.8;background:#121212;color:#e0e0e0;padding:3rem 1rem;max-width:860px;margin:0 auto;font-size:1.15rem}
-  header{text-align:center;margin-bottom:3rem;padding-bottom:2rem;border-bottom:1px solid #2d6a4f}
-  .logo{width:130px;height:100px;margin-bottom:1rem}
-  h1{font-size:3.2rem;color:#95d5b2;margin-bottom:.5rem}
-  a{color:#95d5b2;text-decoration:none}
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.8;
+      background: #121212;
+      color: #e0e0e0;
+      padding: 3rem 1rem;
+      max-width: 860px;
+      margin: 0 auto;
+      font-size: 1.15rem
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #2d6a4f
+    }
+
+    .logo {
+      width: 130px;
+      height: 100px;
+      margin-bottom: 1rem
+    }
+
+    h1 {
+      font-size: 3.2rem;
+      color: #95d5b2;
+      margin-bottom: .5rem
+    }
+
+    a {
+      color: #95d5b2;
+      text-decoration: none
+    }
   </style>
 
-  <link rel="preload" href="/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> <!-- Preload + swap onload -->
-  <noscript><link rel="stylesheet" href="/assets/css/style.css"></noscript>
+  <link rel="preload" href="/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <!-- Preload + swap onload -->
+  <noscript>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </noscript>
   <link rel="icon" href="/assets/img/logo.svg" type="image/svg+xml">
-  </head>
+</head>
+
 <body>
-  <header>
-    <img src="../assets/img/logo.svg" alt="Logo Raíz Verde" class="logo">
+  <a href="#main-content" class="skip-navigation">Saltar al contenido principal</a>
+
+  <header role="banner">
+    <img src="../assets/img/logo.svg" alt="Logo Raíz Verde" class="logo" width="130" height="100">
     <h1>Raíz Verde</h1>
   </header>
 
-  <main>
+  <main id="main-content" role="main">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="../index.html">Inicio</a>
+      <span aria-hidden="true">/</span>
+      <a href="../articulos/">Artículos</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">Principios y prácticas</span>
+    </nav>
+
     <article>
       <h2>Raíz Verde: el proyecto</h2>
       <div class="meta">17 diciembre 2025</div>
-      
-      <p>Bienvenidos a <strong>Raíz Verde</strong>, un proyecto personal y colaborativo que nace de la convicción de que la tecnología y la naturaleza no tienen por qué estar en lados opuestos.</p>
-      
+
+      <p>Bienvenidos a <strong>Raíz Verde</strong>, un proyecto personal y colaborativo que nace de la convicción de que
+        la tecnología y la naturaleza no tienen por qué estar en lados opuestos.</p>
+
       <p>Aquí exploramos dos mundos que me apasionan:</p>
-      
+
       <ul>
-        <li>La <strong>sostenibilidad aplicada a las nuevas tecnologías</strong>: cómo diseñar y desarrollar sitios web, aplicaciones y sistemas digitales con la menor huella de carbono posible (green web design, hosting renovable, código eficiente).</li>
-        <li>Los <strong>proyectos forestales y ambientales</strong>: iniciativas de reforestación, restauración ecológica, conservación de bosques y análisis crítico de propuestas “verdes” en el mundo real.</li>
+        <li>La <strong>sostenibilidad aplicada a las nuevas tecnologías</strong>: cómo diseñar y desarrollar sitios web,
+          aplicaciones y sistemas digitales con la menor huella de carbono posible (green web design, hosting renovable,
+          código eficiente).</li>
+        <li>Los <strong>proyectos forestales y ambientales</strong>: iniciativas de reforestación, restauración
+          ecológica, conservación de bosques y análisis crítico de propuestas “verdes” en el mundo real.</li>
       </ul>
-      
-      <p>Cada semana publicaré un artículo nuevo: reflexiones, tutoriales prácticos, reseñas de proyectos interesantes o ideas para reducir nuestra huella tanto digital como planetaria.</p>
-      
-      <p>El sitio mismo es un ejemplo vivo de lo que defiendo: estático, minimalista, sin trackers, con modo oscuro por defecto, imágenes optimizadas y alojado (próximamente) en servidores de energía renovable.</p>
-      
-      <p>Este espacio lo construyo con la ayuda de Grok (la IA de xAI), que me acompaña en el diseño, el código y las ideas. Por eso, aunque soy yo quien escribe y decide, a veces hablamos en plural: es un “nosotros” entre humano y máquina colaborando por un objetivo común.</p>
-      
-      <p>Gracias por visitar Raíz Verde. Si te interesa el tema, suscríbete al RSS o vuelve cada semana. ¡Crezcamos juntos!</p>
-      
+
+      <p>Cada semana publicaré un artículo nuevo: reflexiones, tutoriales prácticos, reseñas de proyectos interesantes o
+        ideas para reducir nuestra huella tanto digital como planetaria.</p>
+
+      <p>El sitio mismo es un ejemplo vivo de lo que defiendo: estático, minimalista, sin trackers, con modo oscuro por
+        defecto, imágenes optimizadas y alojado (próximamente) en servidores de energía renovable.</p>
+
+      <p>Este espacio lo construyo con la ayuda de Grok (la IA de xAI), que me acompaña en el diseño, el código y las
+        ideas. Por eso, aunque soy yo quien escribe y decide, a veces hablamos en plural: es un “nosotros” entre humano
+        y máquina colaborando por un objetivo común.</p>
+
+      <p>Gracias por visitar Raíz Verde. Si te interesa el tema, suscríbete al RSS o vuelve cada semana. ¡Crezcamos
+        juntos!</p>
+
       <p>— MigLai</p>
     </article>
 
@@ -57,8 +128,8 @@
 
   <footer>
     <nav>
-      <a href="../index.html">Inicio</a> • 
-      <a href="../about.html">Sobre mí</a> • 
+      <a href="../index.html">Inicio</a> •
+      <a href="../about.html">Sobre mí</a> •
       <a href="../articulos/">Artículos</a>
     </nav>
     <p>
@@ -76,4 +147,5 @@
     </p>
   </footer>
 </body>
+
 </html>
