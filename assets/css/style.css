@@ -37,7 +37,24 @@ h1 {
   color: #95d5b2;
   margin-bottom: 0.5rem;
 }
+/*  parrafo de descripción */
+p.description{
+  border-bottom: 1px solid #2d6a4f;
+  padding-bottom: 4rem;
+ 
+} 
+/*  Encabezado lista de artículos */
+h2.list-articles{
+  margin: .5rem 0;
+  border-bottom: 1px solid #2d6a4f;
+  padding-bottom: 1rem;
+}
 
+h2.articles-index{
+  border-bottom: 1px solid #2d6a4f;
+    padding-bottom: 1.2rem;
+    margin-top: -2rem;
+}
 h2 {
   font-size: 2.2rem;         /* ← títulos de artículos y secciones */
   margin-bottom: 0.8rem;
@@ -58,6 +75,11 @@ article {
   padding-bottom: 2rem;
   border-bottom: 1px dashed #333;
 }
+
+article.first{
+  padding-top: 2.5rem;
+}
+
 
 article h2 {
   font-size: 1.8rem;
