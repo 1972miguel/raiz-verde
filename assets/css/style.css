@@ -30,7 +30,14 @@ header {
   width: 130px;
   height: 100px;
   margin-bottom: 1rem;
+  transition: transform 0.4s ease, filter 0.4s ease;
 }
+
+.logo:hover {
+  transform: scale(1.1) rotate(5deg);
+  filter: brightness(1.2);
+}
+
 
 h1 {
   font-size: 3.2rem;
@@ -118,14 +125,6 @@ footer {
   margin-top: 2rem;
 }
 
-.logo {
-  transition: transform 0.4s ease, filter 0.4s ease;
-}
-
-.logo:hover {
-  transform: scale(1.1) rotate(5deg);
-  filter: brightness(1.2);
-}
 
 /* Responsive */
 
