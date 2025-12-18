@@ -22,18 +22,26 @@ body {
 /* Skip Navigation - Accesibilidad */
 .skip-navigation {
   position: absolute;
-  top: -40px;
-  left: 0;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
   background: #2d6a4f;
   color: #fff;
   padding: 0.5rem 1rem;
   text-decoration: none;
   z-index: 100;
-  border-radius: 0 0 4px 0;
+  border-radius: 4px;
 }
 
 .skip-navigation:focus {
-  top: 0;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: auto;
+  height: auto;
+  overflow: visible;
 }
 
 header {
@@ -183,6 +191,7 @@ footer {
 
 /* Soporte para usuarios con sensibilidad al movimiento */
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {
@@ -190,7 +199,7 @@ footer {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-  
+
   .logo:hover {
     transform: none;
   }
@@ -204,7 +213,7 @@ footer {
     padding: 4rem 2rem;
     font-size: 1.25rem;
   }
-  
+
   h1 {
     font-size: 3.8rem;
   }
