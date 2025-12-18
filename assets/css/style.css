@@ -96,6 +96,15 @@ footer {
   margin-top: 2rem;
 }
 
+.logo {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1) rotate(5deg);
+  filter: brightness(1.2);
+}
+
 /* Responsive */
 
 /* Mejora extra para pantallas pequeñas */

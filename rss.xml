@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Raíz Verde</title>
+    <link>https://raiz-verde.netlify.app</link>
+    <description>Sostenibilidad tecnológica y proyectos forestales</description>
+    <language>es</language>
+    <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>Diseño web sostenible: cómo creamos Raíz Verde paso a paso</title>
+      <link>https://raiz-verde.netlify.app/articulos/diseno-web-sostenible.html</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <description>Guía práctica de green web design aplicada a este proyecto.</description>
+    </item>
+
+    <item>
+      <title>Raíz Verde: el proyecto</title>
+      <link>https://raiz-verde.netlify.app/articulos/raiz-verde-el-proyecto.html</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <description>Bienvenidos a este espacio colaborativo dedicado a la sostenibilidad tecnológica y los proyectos forestales.</description>
+    </item>
+
+    <!-- Añade nuevos <item> arriba cuando publiques artículos -->
+  </channel>
+</rss>
