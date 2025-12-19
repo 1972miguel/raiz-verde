@@ -3,7 +3,7 @@
 
   <!-- Home -->
   <url>
-    <loc>https://raiz-verde.netlify.app/</loc>
+    <loc>https://raiz-verde-six.vercel.app/</loc>
     <lastmod>2025-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- Sobre mí -->
   <url>
-    <loc>https://raiz-verde.netlify.app/about.html</loc>
+    <loc>https://raiz-verde-six.vercel.app/about.html</loc>
     <lastmod>2025-12-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -19,31 +19,31 @@
 
   <!-- Listado de artículos -->
   <url>
-    <loc>https://raiz-verde.netlify.app/articulos/</loc>
+    <loc>https://raiz-verde-six.vercel.app/articulos/</loc>
     <lastmod>2025-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Artículo: diseño web sostenible / creación del sitio -->
+  <!-- Artículo: Diseño web sostenible -->
   <url>
-    <loc>https://raiz-verde.netlify.app/articulos/diseno-web-sostenible.html</loc>
-    <lastmod>2025-12-17</lastmod>
+    <loc>https://raiz-verde-six.vercel.app/articulos/diseno-web-sostenible.html</loc>
+    <lastmod>2025-12-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
 
-  <!-- Artículo: principios y prácticas -->
+  <!-- Artículo: Raíz Verde el proyecto -->
   <url>
-    <loc>https://raiz-verde.netlify.app/articulos/raiz-verde-el-proyecto.html</loc>
-    <lastmod>2025-12-17</lastmod>
+    <loc>https://raiz-verde-six.vercel.app/articulos/raiz-verde-el-proyecto.html</loc>
+    <lastmod>2025-12-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Artículo: Ecosia -->
   <url>
-    <loc>https://raiz-verde.netlify.app/articulos/ecosia-buscador-arboles.html</loc>
+    <loc>https://raiz-verde-six.vercel.app/articulos/ecosia-buscador-arboles.html</loc>
     <lastmod>2025-12-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -51,7 +51,7 @@
 
   <!-- Artículo: huella ambiental de la IA -->
   <url>
-    <loc>https://raiz-verde.netlify.app/articulos/huella-ambiental-ia.html</loc>
+    <loc>https://raiz-verde-six.vercel.app/articulos/huella-ambiental-ia.html</loc>
     <lastmod>2025-12-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -59,7 +59,7 @@
 
   <!-- RSS -->
   <url>
-    <loc>https://raiz-verde.netlify.app/rss.xml</loc>
+    <loc>https://raiz-verde-six.vercel.app/rss.xml</loc>
     <lastmod>2025-12-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.4</priority>
