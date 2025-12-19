@@ -55,7 +55,7 @@ header {
   width: 130px;
   height: 100px;
   margin-bottom: 1rem;
-  transition: transform 0.4s ease, filter 0.4s ease;
+  transition: transform 0.25s ease, filter 0.25s ease;
 }
 
 .logo:hover {
@@ -74,7 +74,10 @@ p.description {
   border-bottom: 1px solid #2d6a4f;
   padding-bottom: 4rem;
 }
-
+/** Enlace de retorno página about*/
+#return-link{
+  margin-top: 1rem;
+}
 /* Encabezado lista de artículos */
 h2.list-articles {
   margin: 0.5rem 0;
@@ -152,6 +155,9 @@ article .meta {
   margin-bottom: 1rem;
 }
 
+article p:last-of-type {
+  margin-top: 1rem;
+}
 /* Links con mejor contraste WCAG 2.1 AA */
 a {
   color: #a8e6cf;
@@ -199,7 +205,10 @@ footer {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-
+    .logo {
+    transition-duration: 0.01ms !important;
+    transform: none;
+  }
   .logo:hover {
     transform: none;
   }
